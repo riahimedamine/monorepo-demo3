@@ -1,0 +1,19 @@
+{
+    "name": "monorepo-demo3",
+    "version": "0.0.0",
+    "workspaces": [
+        "apps/*",
+        "libs/*"
+    ],
+    "scripts": {
+        "format": "prettier --write .",
+        "build": "npm --workspaces --if-present run build",
+        "shared:build": "npm --prefix libs/shared run build",
+        "api": "npm --prefix apps/api run start",
+        "api:build": "npm --prefix apps/api run build",
+        "api:dev": "npm --prefix apps/api run start:dev",
+        "api:start": "npm --prefix apps/api run start",
+        "web": "npm --prefix apps/web run start",
+        "web:build": "npm --prefix apps/web run build"
+    }
+}

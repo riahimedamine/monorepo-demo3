@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "rootDir": "src",
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "../../dist/libs/shared",
+        "module": "NodeNext",
+        "moduleResolution": "nodenext"
+    }
+}
