@@ -1,9 +1,13 @@
 {
     "extends": "../../tsconfig.base.json",
     "compilerOptions": {
-        "module": "commonjs",
-        "outDir": "../../dist/apps/api",
+        "module": "NodeNext",
+        "rootDirs": [
+            "src",
+            "test"
+        ],
         "baseUrl": "./",
+        "outDir": "../../dist/apps/api",
         "paths": {
             "@app/shared": [
                 "../../libs/shared/src/"

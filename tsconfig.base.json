@@ -24,7 +24,7 @@
     },
     "references": [
         {
-            "path": "./lib/shared"
+            "path": "./libs/shared"
         }
     ]
 }
