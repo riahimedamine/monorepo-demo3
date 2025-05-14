@@ -13,7 +13,6 @@
         "importHelpers": true,
         "declaration": true,
         "removeComments": true,
-        "emitDecoratorMetadata": true,
         "allowSyntheticDefaultImports": true,
         "sourceMap": true,
         "incremental": true,
@@ -21,10 +20,5 @@
         "forceConsistentCasingInFileNames": true,
         "noImplicitAny": true,
         "strictBindCallApply": true,
-    },
-    "references": [
-        {
-            "path": "./libs/shared"
-        }
-    ]
+    }
 }

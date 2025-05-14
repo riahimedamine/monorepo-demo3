@@ -1,12 +1,8 @@
 {
     "extends": "../../tsconfig.base.json",
     "compilerOptions": {
-        "module": "NodeNext",
-        "rootDirs": [
-            "src",
-            "test"
-        ],
-        "baseUrl": "./",
+        "module": "CommonJS",
+        "moduleResolution": "node",
         "outDir": "../../dist/apps/api",
         "paths": {
             "@app/shared": [
@@ -14,9 +10,4 @@
             ]
         }
     },
-    "references": [
-        {
-            "path": "../../libs/shared"
-        }
-    ]
 }
